@@ -48,3 +48,12 @@ git commit -m "initial commit"
 
 ## Create a heroku app
 heroku create
+
+## Create repo in heroku
+heroku git:remote -a quiet-oasis-03025
+
+## Deploy your app
+git push heroku master
+
+## Open your app
+heroku open
