@@ -54,6 +54,7 @@ heroku git:remote -a quiet-oasis-03025
 
 ## Deploy your app
 git push heroku master
+git push heroku main
 
 ## Open your app
 heroku open
