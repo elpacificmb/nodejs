@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Start with Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elpacificmb/nodejs.git"
+  },
+  "author": "El Pacific Binagha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elpacificmb/nodejs/issues"
+  },
+  "homepage": "https://github.com/elpacificmb/nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
